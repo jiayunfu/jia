@@ -1,0 +1,26 @@
+.header .nav{
+    /* border:1px solid; */
+    width: 100%;
+    margin-left: 0;
+}
+.header .logo{
+    margin-left: 5%;
+    float:left;
+}
+
+.header .nav {
+
+    /* background: rgba(208, 208, 235, 0.2); */
+}
+.leftText h3{
+    font-size:1.9em;
+    font-weight: 400;
+}
+video{
+    
+    margin-left: 25%;
+    margin-top: 15%;
+    /* border: 0; */
+    /* border: 1px solid red; */
+}
+

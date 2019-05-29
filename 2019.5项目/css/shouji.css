@@ -1,0 +1,104 @@
+.header{
+    
+    background: #333;
+}
+.header .logo a{
+    height:60px;
+    background:url(../images/logo_index.png)0 20px no-repeat;
+    background-size: 100%;
+}
+.header .nav{
+    display: none;
+    width: 0;
+    height: 750px;
+    margin-left:0;
+    text-align: left;
+    background:#333;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 72px;
+}
+.header .nav ul{
+    width: 100%;
+    height:auto;
+}
+.header .nav ul li{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    border-top: 1px solid #777;
+    background:#333;
+    position: relative;
+}
+.header .nav ul li a{
+    color:#fff;
+    height: 75px;
+    margin-left: 10%;
+
+}
+.header .nav ul li a:hover{
+    border-bottom:1px #ccc;
+}
+.header .nav ul li div{
+    position: static;
+    /* 能让元素占据空间 */
+    top: 75px;
+    left:0;
+    width: 100%;
+    height: auto;
+    display:block;
+    line-height: 30px;
+    border-bottom: 1px solid #333;
+}
+.header .nav ul li div ul {
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+.header .nav ul li div ul li{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    padding:0;  
+}
+.header .nav ul li ul li a{
+    margin-left: 15%;
+    line-height: 30px;
+    height: 30px
+
+
+}
+/* .header .nav ul li ul li */
+.header .anniu{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    
+    text-align: center;
+    line-height: 25px;
+    display: block;
+}
+.header .anniu a{
+    color:#fff;
+}
+.leftText h3{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.leftText p{
+    font-size: 0.8em;
+}
+video{
+    width: 100%;
+    margin:0;
+    margin-top: 71px;
+   
+}
+#video span{
+    top: 73px;
+}
+

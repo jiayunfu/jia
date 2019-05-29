@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+.dheader{
+    width: 1000px;
+    height: 75px;
+    margin: 0 auto;
+}
+.dheader .dlogo{
+    width: 245PX;
+    height: 60px;
+    margin-top: 15px;
+}
+.dheader .dnav{
+    width: 100px;
+    height: 75px;
+    line-height:75px;
+    margin-left:50px;
+    /* border:1px solid red; */
+
+}
+.dheader .dlogo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border:1px solid red; */
+    background: url(../images/logo_style.png) no-repeat;
+    
+}
+
+.dheader .ddenglu{
+    width: 150px;
+    height: 75px;
+    /* border:1px solid red; */
+    margin-left: 350px;
+}
+.dheader .ddenglu span{
+    display: block;
+    margin-top: 45px;
+    float: left;
+    color:red;
+}
+.dheader .ddenglu span:nth-child(1){
+    
+    width: 18px;
+    height: 13px;
+    margin-right: 10px;
+    /* border:1px solid red; */
+    background: url(../images/q-icon.png) no-repeat;
+}
+.dcontent {
+    width: 100%;
+    height: 600px;
+    /* border:1px solid red; */
+    background:url(../images/shipin.jpg)no-repeat;
+}
+.dcontent .dzhuce{
+    width: 300px;
+    height: 330px;
+    float: right;
+    margin-right: 60px;
+    margin-top:50px;
+    background: #fff;
+    position: relative;
+}
+.dcontent .dzhuce h3{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    color:rgb(186, 83, 83);
+}
+.dcontent .dzhuce input{
+    width: 250px;
+    height: 40px;
+    padding-left: 40px;
+    margin-left:25px;
+    margin-top: 30px;
+}
+.dcontent .dzhuce i{
+    width: 39px;
+    height:40px;
+    border-right:1px solid #ccc;
+    background:url(../images/pwd-icons-new.png)-0px -48px no-repeat;
+    position: absolute;
+    left: 26px;
+    top: 71px;
+}
+.dcontent .dzhuce .i2{
+    background-position:-48px -48px;
+    top: 141px;
+}
+.dcontent .dzhuce .i3{
+    background-position:-48px -48px;
+    top: 211px;
+}
+.dcontent .dzhuce em {
+    width: 25px;
+    height:25px;
+    background:url(../images/pwd-icons-new.png)-19px -136px no-repeat;
+    position: absolute;
+    right: 26px;
+    top: 76px;
+}
+.dcontent .dzhuce .em2{
+    top: 146px;
+}
+.dcontent .dzhuce .em3{
+    top: 216px;
+}
+
+
+#btn{
+    padding-left: 0px;
+
+    background:#e4393c;
+}
+.dzhucebottom{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    border-top:1px solid #ccc;
+}
+.dzhucebottom span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/pwd-icons-new.png)-96px -72px no-repeat;
+    /* margin-left: 200px; */
+    margin-top: 10px;
+    float:left;
+}
+.dzhucebottom a{
+    margin-top: 20px;
+    margin-right: 20px;
+    color:#e4393c;
+    float: right;
+}
+
+.dcontent .heights{
+    display:none;
+    height: 400px;
+}
+.dbottom{
+    width: 1000px;
+    height: 120px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.dbottom p{
+
+}
